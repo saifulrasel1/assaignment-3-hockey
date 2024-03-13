@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockey Maker</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/7e366b8d1e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- header section  -->
+    <div class="navbar bg-gray-100 flex items-center justify-between p-4 container mx-auto">
+        <div class="flex-none">
+
+              <div class="dropdown flex items-center ">
+              <details class="lg:hidden sm:block">
+                <summary> 
+                     <div tabIndex={0} role="button" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </div>
+            </summary>
+                <ul tabIndex={0} class="p-4 menu menu-sm dropdown-content mt-3 z-[1]  shadow  rounded-box w-full bg-gray-100 w-62  text-center  rounded-t-none">
+                    <li class="my-2">Home</a></li>
+                    <li class="my-2">About</li>
+                    <li class="my-2">pages</li>
+                    <li class="my-2">Blog</li>
+                    <li class="my-2">Contact</li>
+                  </ul>
+              </details>
+              <div class="">
+                <a class="btn btn-ghost text-[20px] lg:text-2xl font-bold text-gray-600">Hockey,s</a>
+              </div>
+            </div>
+         
+        </div>
+        
+        <ul class=" lg:flex   text-[20px] hidden lg:block  cursor-pointer">
+            <li class="my-2 mr-4">Home</a></li>
+            <li class="my-2 mr-4">About</li>
+            <li class="my-2 mr-4">pages</li>
+            <li class="my-2 mr-4">Blog</li>
+            <li class="my-2 mr-4">Contact</li>
+          </ul>
+          
+        <div>
+            <i class="fa-solid lg:mr-4 hidden lg:block lg:text-2xl fa-magnifying-glass"></i>
+            <button class="btn btn-warning sm:text-xl px-2 ">Get Ticket</button>
+        </div>
+     </div>
+  
+     <!-- carousel section  -->
+     
+  </body>
+</html>
